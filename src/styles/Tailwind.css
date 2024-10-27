@@ -1,0 +1,88 @@
+/*Reset browser syling*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* CSS HEX */
+    --platinum: #cfdbd5ff;
+    --timberwolf: #d3d3d3ff;
+    --penn-red: #9b0000ff;
+    --eerie-black: #242423ff;
+    --onyx: #3d3d3dff;
+  }
+  
+  /*Set global fontsbase, & size*/
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--timberwolf);
+    background-color: var(--eerie-black);
+  }
+  
+  /* Ensure images and videos scale properly */
+  
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Set link styling */
+  
+  a {
+    text-decoration: none;
+    color: #7a0000;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Headings */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--penn-red);
+  }
+  
+  /* Paragraph styling */
+  
+  p {
+    margin-bottom: 1.5rem;
+    color: var(--timberwolf);
+  }
+  
+  /* Global container styling */
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  /* Classes  */
+  
+  /* Global button styling */
+  
+  button {
+    font: inherit;
+    background-color: var(--penn-red);
+    color: var(--eerie-black);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--penn-red);
+  }
+  
+  .navbar {
+    background-color: red;
+    /* Temporary background to check */
+  }
